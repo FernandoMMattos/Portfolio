@@ -1,0 +1,73 @@
+:global {
+  .dark-mode {
+    --color-primary: #222831;
+    --color-secundary: #eeeeee;
+    --color-terciary: #00adb5;
+    --hover: #393e46;
+    --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/sol.png");
+  }
+  #switch-button:checked ~ label > .fa-sun {
+    opacity: 0;
+    transform: translateX(0px);
+  }
+  #switch-button:checked ~ label > .fa-moon {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+}
+
+.checkbox {
+  display: none;
+  align-items: center;
+}
+
+.change_theme {
+  border: 2px solid gray;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.faSun {
+  color: orange;
+  font-size: 25px;
+  text-shadow: 0 0 10px orange;
+  transform: translateX(25px);
+  transition: 0.5s;
+}
+
+.faMoon {
+  color: white;
+  font-size: 25px;
+  text-shadow: 0 0 10px white;
+  transform: translateX(0px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.blue {
+  color: var(--color-terciary);
+}
+
+.header {
+  display: flex;
+  padding: 2% 0% 0% 15%;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  gap: 80px;
+}
+
+.header__menu__link {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: var(--color-terciary);
+  text-decoration: none;
+}

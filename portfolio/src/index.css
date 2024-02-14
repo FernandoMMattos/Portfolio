@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap");
+
+:root {
+  --color-primary: #f7f7f7;
+  --color-secundary: #a0834e;
+  --color-terciary: #bd9f69;
+  --color-quart: #080808;
+  --hover: #ffffff;
+
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-krona-one: "Krona One", sans-serif;
+
+  --label-icon: url("https://caelum-online-public.s3.amazonaws.com/1369-alura-mais-dark-mode/lua.png");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--color-primary);
+  color: var(--color-secundary);
+  transition: background 0.2s linear;
+}
