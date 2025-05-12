@@ -46,10 +46,10 @@ export default function HomePage() {
           </a>
           <a
             className={styles.presentation__links__nav}
-            href="https://www.fernandommattos.com/iphone-13/"
+            href="https://cl00things.vercel.app"
           >
-            <i className="fa-brands fa-wordpress"></i>
-            Wordpress
+            <i className="fa-brands fa-cart-shopping"></i>
+            Cl00things
           </a>
         </div>
       </section>
